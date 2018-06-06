@@ -67,17 +67,15 @@ span.CodeMirror-selectedtext {
 }
 
 .CodeMirror-code .CodeMirror-matchingbracket {
-	color: @cm-matching-bracket !important;
-	text-shadow: 0 0 3px @cm-matching-bracket !important;
 	border-bottom: none !important;
-	font-weight: 800 !important;
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
 }
 
 .CodeMirror-code .CodeMirror-nonmatchingbracket {
 	color: @cm-nonmatching-bracket !important;
 	text-shadow: 0 0 3px @cm-nonmatching-bracket !important;
 	border-bottom: none !important;
-	font-weight: 800 !important;
 }
 
 .cm-search-highlight-start::before {
@@ -121,7 +119,7 @@ span.cm-token-highlight::before {
 }
 
 .cm-highlight {
-	-webkit-animation: "source-line-modification-background-fadeout-revised" 3s 0s !important;
+	// -webkit-animation: "source-line-modification-background-fadeout-revised" 3s 0s !important;
 	outline: 1px solid @selection-border !important;
 }
 
@@ -138,9 +136,9 @@ span.cm-token-highlight::before {
 	border-right: none !important;
 }
 
-.cm-line-without-source-mapping {
-	background-color: @cm-lines-no-sourcemap !important;
-}
+// .cm-line-without-source-mapping {
+// 	background-color: @cm-lines-no-sourcemap !important;
+// }
 
 // Editing Dom Nodes or Snippet Filenames
 #-blink-dev-tools .editing {

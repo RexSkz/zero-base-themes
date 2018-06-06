@@ -4,15 +4,15 @@
 
 // GLOBAL BACKGROUND COLOR
 // elements-panel
-.panel.elements,
+// .panel.elements,
 // elements-sidebar
-.styles-pane,
-.metrics,
+// .styles-pane,
+// .metrics,
 // console
-#console-messages,
+// #console-messages,
 // sources
-.tabbed-pane-content,
- {
+// .tabbed-pane-content,
+//  {
 // #console-messages,
 // #console-view,
 // #network-views .CodeMirror-lines,
@@ -34,17 +34,17 @@
 // .timeline-records-title,
 // .timeline-records-list,
 // #timeline-overview-sidebar
-	background-color: @global-background !important;
-}
+	// background-color: @global-background !important;
+// }
 
-::selection {
-	background: lighten(@global-selected, 45%)
-}
+// ::selection {
+	// background: lighten(@global-selected, 45%)
+// }
 
 //Panel text
-.panel-enabler-view {
-	color: @global-text;
-}
+// .panel-enabler-view {
+// 	color: @global-text;
+// }
 
 // Panel Tree Selections
 .panel {
@@ -112,9 +112,9 @@ style + .text-prompt-editing,
 .text-prompt-editing,
 .editing {
 	box-shadow: none !important;
-	background-color: @global-background !important;
+	// background-color: @global-background !important;
 	outline: 1px solid @eh-editing-outline !important;
-	color: @global-text !important;
+	// color: @global-text !important;
 }
 
 // Weird edit state where you add an attribute, but delete the text and retype
@@ -128,14 +128,14 @@ style + .text-prompt-editing,
 
 // Editing Scope values
 .editing-sub-part .text-prompt-editing ::content * {
-	background-color: @global-background !important;
+	// background-color: @global-background !important;
 	color: @global-text !important;
 }
 
 // Tree Directories
-.panel-sidebar {
-	background-color: @global-background !important;
-}
+// .panel-sidebar {
+// 	background-color: @global-background !important;
+// }
 
 .tree-outline li {
 	&.odd-row + .children li,
@@ -224,15 +224,15 @@ li.audits-sidebar-results {
 }
 
 // Tooltips
-.tooltip {
-	background: @- !important; .contrast(@global-background, 3%);
-	border: 1px solid @global-background;
-	color: @global-text !important;
+// .tooltip {
+// 	background: @- !important; .contrast(@global-background, 3%);
+// 	border: 1px solid @global-background;
+// 	color: @global-text !important;
 
-	&-shortcut {
-		color: @global-accent !important;
-	}
-}
+// 	&-shortcut {
+// 		color: @global-accent !important;
+// 	}
+// }
 
 // Buttons
 .chrome-select:extend(.chrome-select all) {};
@@ -242,9 +242,9 @@ li.audits-sidebar-results {
 	.button-styles();
 }
 
-ol.children.shadow-root.expanded {
-	border-left: 1px dashed @- !important; .contrast(@global-background, 10%);
-}
+// ol.children.shadow-root.expanded {
+// 	border-left: 1px dashed @- !important; .contrast(@global-background, 10%);
+// }
 
 // ==========================================================================
 // Forms
