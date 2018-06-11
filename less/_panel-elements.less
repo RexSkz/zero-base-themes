@@ -14,7 +14,21 @@
 //  Element Highlighter
 // ==========================================================================
 .elements-disclosure {
-	.arrow-mixin();
+	li.parent {
+		margin-left: 0 !important;
+		&::before {
+			display: none;
+		}
+	}
+	// .arrow-mixin();
+
+	.selection.fill {
+		margin-left: -100% !important;
+	}
+
+	.gutter-menu-icon {
+		display: none !important;
+	}
 
 	ol:focus li.selected .selection,
 	li.selected .selection {

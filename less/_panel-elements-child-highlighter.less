@@ -7,8 +7,8 @@
 		// highlight children
 		&.selected.expanded + .children,
 		&.hovered.expanded + .children {
-			background: @eh-children-shadow;
-			border: none;
+			// background: @eh-children-shadow;
+			box-shadow: inset 0 0 0 1px lighten(@global-background, 10%);
 
 			// highlight pseudo elements of selected node
 			> li .webkit-html-pseudo-element:first-child {
@@ -16,9 +16,9 @@
 			}
 
 			// fade closing tag of parent
-			> li:last-of-type .webkit-html-tag.close {
-				opacity: 0.5 !important;
-			}
+			// > li:last-of-type .webkit-html-tag.close {
+				// opacity: 0.5 !important;
+			// }
 		}
 	}
 }

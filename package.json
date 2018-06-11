@@ -1,21 +1,21 @@
 {
-  "name": "zero-base-themes",
-  "version": "0.0.2",
-  "description": "Chrome Devtools themes using the Zero-Base Template",
+  "name": "zero-base-theme-monokai",
+  "version": "0.0.1",
+  "description": "Chrome Devtools Monokai theme using the Zero-Base Template",
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mauricecruz/zero-base-themes.git"
+    "url": "git+https://github.com/RexSkz/zero-base-themes.git"
   },
-  "author": "Maurice Cruz",
+  "author": "Rex Zeng",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mauricecruz/zero-base-themes/issues"
+    "url": "https://github.com/RexSkz/zero-base-themes/issues"
   },
-  "homepage": "https://github.com/mauricecruz/zero-base-themes#readme",
+  "homepage": "https://github.com/RexSkz/zero-base-themes#readme",
   "scripts": {
-		"start": "grunt watch",
-		"build": "grunt package",
+    "start": "grunt watch",
+    "build": "grunt package",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},

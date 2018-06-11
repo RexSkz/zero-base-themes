@@ -9,11 +9,12 @@
 // @alpha   : hsl( 80,  76%, 53%); //* light green */
 // @bravo   : hsl(340,  95%, 56%); //* dark red    */
 // @charlie : hsl(187,  71%, 68%); //* light blue  */
+// @delta   : hsl(261, 100%, 75%); //* purple      */
 // @echo    : hsl( 53,  66%, 71%); //* yellow      */
 @alpha   : #84e500;             //* light green */
 @bravo   : #f06;                //* dark red    */
 @charlie : #00d9f0;             //* light blue  */
-@delta   : hsl(261, 100%, 75%); //* purple      */
+@delta   : #b06bff;             //* purple      */
 @echo    : #e5d758;             //* yellow      */
 @foxtrot : hsl( 21,  86%, 59%); //* orange      */
 @golf    : hsl(338,  95%, 56%); //* magenta     */
@@ -155,7 +156,7 @@
 
 // Element Highlighter
 @eh-base-color           : @global-selected;
-@eh-children-shadow      : darken(@global-background, 10%);
+@eh-children-shadow      : lighten(@global-background, 2%);
 @eh-editing-outline      : @global-accent;
 @eh-highlight-background : @selection-background;
 @eh-highlight-outline    : @selection-border;
